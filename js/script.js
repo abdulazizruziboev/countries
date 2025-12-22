@@ -87,7 +87,7 @@ elFilterSelect.addEventListener("change",(evt)=>{
 function find(val){
     let countriesFiltered = [];
     countries.filter(el=>{
-        if(el.name.toLowerCase().includes(val.trim().toLowerCase())==true) countriesFiltered.push(el);
+        if(el.name.toLowerCase().includes(val.trim().toLowerCase())==true||el.capital.toLowerCase().includes(val.trim().toLowerCase())==true) countriesFiltered.push(el);
         else {    
         return false;
         }; 
