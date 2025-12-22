@@ -12,23 +12,12 @@ elCardsBox.innerHTML+=`
 <div class="country_card">
 <img src="${flag}" alt="" aria-hidden="true">
 <div class="card_dec">
-<span class="country_title">
-${name}
-</span>
+<span class="country_title">${name}</span>
 <div class="card_dec_details">
-<span>
-<b>Population:</b> ${population}
-</span>
-<span>
-<b>Region:</b> ${region}
-</span>
-<span>
-<b>Capital:</b> ${capital}
-</span>
-</div>
-</div>
-</div>
-</div>
+<span><b>Population:</b> ${population}</span>
+<span><b>Region:</b> ${region}</span>
+<span><b>Capital:</b> ${capital}</span>
+</div></div></div></div>
 `
 });
 };
