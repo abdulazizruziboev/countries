@@ -84,7 +84,7 @@ function find(val){
     UIWrite(countriesFiltered);
 };
 
-elFindInput.addEventListener("change",(evt)=>{
+elFindInput.addEventListener("input",(evt)=>{
     elCardsBox.innerHTML=null;
     find(evt.target.value);
 });
