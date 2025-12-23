@@ -147,6 +147,7 @@ body {
     gap: 20px;
     width: auto;
     padding: 20px 20px;
+    justify-content: center;
 }
 
 .country_card {
@@ -194,3 +195,37 @@ body {
     margin-bottom: 12px;
 }
 
+@media (max-width: 800px) {
+    .country_box {
+        padding: 0px;
+    }
+    .country_card {
+        width: 300px;
+    }
+
+    .find_lab {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 659px) {
+    .country_box {
+        padding: 20px;
+    }
+    .country_card {
+        width: 100%;
+    }
+
+    .filter_box {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .find_lab {
+        max-width: 100%;
+    }
+
+    .filter_box select {
+        width: 100%;
+    }
+}
